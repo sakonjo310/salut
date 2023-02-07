@@ -163,7 +163,7 @@ function Navbar(props) {
                 sx={{ textAlign: "center" }}
                 component={NextLinkComposed}
                 to={{
-                  pathname: "/auth/signin",
+                  pathname: "/Signin",
                 }}
               >
                 <ListItemText primary={"SIGN IN"} />
@@ -241,8 +241,8 @@ function Navbar(props) {
             )}
             {status === "unauthenticated" && (
               <>
-                <NavButton component={NextLinkComposed} path="/auth/signin">
-                  Sign In
+                <NavButton component={NextLinkComposed} path="/Signin">
+                  Sign in
                 </NavButton>
               </>
             )}
