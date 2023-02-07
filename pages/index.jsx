@@ -107,7 +107,7 @@ export default function Home() {
               size="large"
               component={NextLinkComposed}
               to={{
-                pathname: "user/signup",
+                pathname: "/Signup",
               }}
             >
               Sign up
